@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<title>Change text </title>
+</head>
+<body>
+<h1>changing text using jquery </h1>
+<a href="www.acadgild.com" id='acadgild'>jQuery Tutorial</a>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$("a").text("Hello");	
+    $("a").attr("href", "http://www.google.com/");
+});
+</script>
+</body>
+</html>
